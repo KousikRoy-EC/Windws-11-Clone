@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(bg.jpeg) ;
+      background-size: cover;
+   
+
+    }
+
+
+.taskbar{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.Task-comp{
+    position: absolute;
+    right: 0px;
+    height: 85%;
+    justify-self: flex-end;
+    margin: 6px 0px;
+}
+
+.starter{
+    position: absolute;
+    /* bottom: 50px; */
+    width: 100%;
+    bottom: -650px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.starter img{
+    border-radius: 8px;
+}
+
+.text{
+    color: white;
+    padding-left: 24px;
+    font-size: 20px;
+    
+}
+
+.icons1,.icons2,.icons3 img{
+    margin-top: 15px;
+}
+
+.icons2,.icons3 img{
+    padding-left: 15px;
+}
